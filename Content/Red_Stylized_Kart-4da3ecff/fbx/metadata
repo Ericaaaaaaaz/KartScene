@@ -1,0 +1,157 @@
+{
+	"assetNamespace": "fab",
+	"listing":
+	{
+		"averageRating": 0,
+		"createdAt": "",
+		"description": "<p>It's just my stylized kart model.</p>",
+		"isAiForbidden": true,
+		"isAiGenerated": false,
+		"lastUpdatedAt": "",
+		"listingType": "3d-model",
+		"media": "",
+		"publishedAt": "2025-07-04T11:37:01.063056Z",
+		"reviewCount": 0,
+		"thumbnail": "https://media.fab.com/image_previews/gallery_images/52fc0383-5009-4d43-9978-74e46bb04ba0/11591ee8-d0e5-460a-a62d-53dc89c5af67.png",
+		"title": "Red Stylized Kart",
+		"uid": "4da3ecff-5518-4e01-a92b-ecde173a4355",
+		"updatedAt": "",
+		"user":
+		{
+			"coverImageUrl": "https://cdn1.epicgames.com/fab/seller/o-tlrjdrlnc7jjpxwgf6lhdtc5qry6pr/cover/5ced7f67.png",
+			"profileImageUrl": "https://cdn1.epicgames.com/fab/seller/o-tlrjdrlnc7jjpxwgf6lhdtc5qry6pr/profile/f6e0bf74.png",
+			"sellerName": "RipVerticesStudio",
+			"uid": "7fc1a3a0-6813-4182-847b-fe61af4ed8d6"
+		},
+		"tags": [
+			{
+				"name": "Pbr",
+				"slug": "pbr",
+				"uid": "080edd3b-d10a-4f32-ace2-30f5baa480dc"
+			},
+			{
+				"name": "Vehicle",
+				"slug": "vehicle",
+				"uid": "08971b1b-8ab3-4de7-8500-b9b3e00382cb"
+			},
+			{
+				"name": "Stylish",
+				"slug": "stylish",
+				"uid": "18d60615-5a76-42a8-9020-ad95fd53ccc0"
+			},
+			{
+				"name": "Car",
+				"slug": "car",
+				"uid": "1b19907d-7199-4bea-888b-434c45591ad6"
+			},
+			{
+				"name": "Race",
+				"slug": "race",
+				"uid": "21e07f73-e8e4-4798-9741-109770125fb1"
+			},
+			{
+				"name": "Fun",
+				"slug": "fun",
+				"uid": "23049440-05af-47e6-8e57-c84f60640b39"
+			},
+			{
+				"name": "Colorful",
+				"slug": "colorful",
+				"uid": "307b5072-b530-4319-b3fe-b06996e23a78"
+			},
+			{
+				"name": "Arcade",
+				"slug": "arcade",
+				"uid": "34acd33e-368b-4817-93a7-452701e2b2aa"
+			},
+			{
+				"name": "Racing",
+				"slug": "racing",
+				"uid": "4123a8f9-36ca-4246-891d-655cbb10add8"
+			},
+			{
+				"name": "Gokart",
+				"slug": "gokart",
+				"uid": "5196b8ce-e14b-4180-9795-2fb7a7ad9674"
+			},
+			{
+				"name": "Animated",
+				"slug": "animated",
+				"uid": "8e61a209-4e02-4dd1-8e44-cc2bf9356e7a"
+			},
+			{
+				"name": "Stylized",
+				"slug": "stylized",
+				"uid": "b584e222-c5bf-43b3-b9ed-f937eaf169c1"
+			},
+			{
+				"name": "Rigged",
+				"slug": "rigged",
+				"uid": "c5c1f70c-aabe-41d4-bd3a-e7e00ab60f0c"
+			},
+			{
+				"name": "Drift",
+				"slug": "drift",
+				"uid": "eac78e50-316d-4d6f-a8a8-a9bc9d2a590f"
+			},
+			{
+				"name": "Racer",
+				"slug": "racer",
+				"uid": "fcd78293-634b-4ec1-8016-f3ba9a74381b"
+			}
+		],
+		"category":
+		{
+			"name": "Vehicles & Transportation",
+			"path": "vehicles-transportation",
+			"slug": "vehicles-transportation",
+			"uid": "0bb33d40-c52f-4f88-86df-eeff7fcf7ba9"
+		},
+		"assetFormats": [
+			{
+				"assetFormatType":
+				{
+					"name": "FBX",
+					"groupName": "3D Exchange Formats",
+					"code": "fbx",
+					"icon": "cube",
+					"extensions": [
+						"fbx"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "Converted Files",
+					"groupName": "",
+					"code": "converted-files",
+					"icon": "cube",
+					"extensions": [
+						"gltf",
+						"glb",
+						"usdz"
+					]
+				}
+			}
+		],
+		"_PluginMetas":
+		{
+			"apiDataVersion": "0.0.1",
+			"entitlementUid": "",
+			"cacheSize": 0,
+			"downloaded": []
+		}
+	},
+	"target": "",
+	"quality": "",
+	"format": "fbx",
+	"fileId": "18f15cc3-aa5e-4973-823e-6562796c6fe0",
+	"platformIncluded": "",
+	"distributionPointBaseUrls": [],
+	"distributionMethod": "",
+	"entitlementUid": "",
+	"invertedNormal": false,
+	"isConverted": false,
+	"isQuixel": false
+}
