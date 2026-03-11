@@ -37,6 +37,12 @@ struct FRaceResultRow
 	int32 ResY = 0;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Race")
+	float Budget = 0.f;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Race")
+	float ScreenPercentage = 0.f;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Race")
 	float DurationSeconds = 0.f;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Race")
@@ -69,7 +75,7 @@ public:
 
 	// Set run settings chosen in menu
 	UFUNCTION(BlueprintCallable, Category = "Race|Record")
-	void SetRunSettings(const FString& InSceneName, int32 InTargetFPS, int32 InResX, int32 InResY);
+	void SetRunSettings(const FString& InSceneName, int32 InTargetFPS, int32 InResX, int32 InResY, float InBudget, float InScreenPercentage);
 
 	// Update values during play / at the end
 	UFUNCTION(BlueprintCallable, Category = "Race|Record")

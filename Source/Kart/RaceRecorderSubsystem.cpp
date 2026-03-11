@@ -40,12 +40,14 @@ void URaceRecorderSubsystem::SetUserInfo(const FString& InUserID, const FString&
 	CurrentRun.UserAge = InUserAge;
 }
 
-void URaceRecorderSubsystem::SetRunSettings(const FString& InSceneName, int32 InTargetFPS, int32 InResX, int32 InResY)
+void URaceRecorderSubsystem::SetRunSettings(const FString& InSceneName, int32 InTargetFPS, int32 InResX, int32 InResY, float InBudget, float InScreenPercentage)
 {
 	CurrentRun.SceneName = InSceneName;
 	CurrentRun.TargetFPS = InTargetFPS;
 	CurrentRun.ResX = InResX;
 	CurrentRun.ResY = InResY;
+	CurrentRun.Budget = InBudget;
+	CurrentRun.ScreenPercentage = InScreenPercentage;
 }
 
 void URaceRecorderSubsystem::SetHits(int32 InPositiveHits, int32 InNegativeHits)
@@ -76,7 +78,7 @@ void URaceRecorderSubsystem::FinishRun(float DurationSeconds)
 
 FString URaceRecorderSubsystem::BuildCSVHeader() const
 {
-	return TEXT("Timestamp,UserID,UserGender,UserAge,LevelName,SceneName,TargetFPS,ResX,ResY,DurationSeconds,PositiveHits,NegativeHits,FinalScore\n");
+	return TEXT("Timestamp,UserID,UserGender,UserAge,LevelName,SceneName,TargetFPS,ResX,ResY,Budget,ScreenPercentage,DurationSeconds,PositiveHits,NegativeHits,FinalScore\n");
 }
 
 FString URaceRecorderSubsystem::BuildCSVLine(const FRaceResultRow& Row) const
@@ -88,7 +90,7 @@ FString URaceRecorderSubsystem::BuildCSVLine(const FRaceResultRow& Row) const
 
 
 	return FString::Printf(
-		TEXT("%s,%s,%s,%d,%s,%s,%d,%d,%d,%.3f,%d,%d,%d\n"),
+		TEXT("%s,%s,%s,%d,%s,%s,%d,%d,%d,%.3f,%.3f,%.3f,%d,%d,%d\n"),
 		*Row.Timestamp,
 		*UserIDEscaped,
 		*GenderEscaped,
@@ -98,6 +100,8 @@ FString URaceRecorderSubsystem::BuildCSVLine(const FRaceResultRow& Row) const
 		Row.TargetFPS,
 		Row.ResX,
 		Row.ResY,
+		Row.Budget,
+		Row.ScreenPercentage,
 		Row.DurationSeconds,
 		Row.PositiveHits,
 		Row.NegativeHits,
